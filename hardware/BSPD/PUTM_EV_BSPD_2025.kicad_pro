@@ -645,6 +645,14 @@
     [
       "743c9fc1-2f1a-4d5a-9140-72b33986ce8b",
       "Brake Sensors Comparators"
+    ],
+    [
+      "2d11734f-2f5d-466a-b449-1432fba26460",
+      "LEM Comparator"
+    ],
+    [
+      "ac2eadde-f436-48a6-88e5-310fa5786a7f",
+      "Power Section"
     ]
   ],
   "text_variables": {
