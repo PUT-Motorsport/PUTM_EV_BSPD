@@ -5,26 +5,27 @@
 	(uuid "03e853ca-0736-453e-9655-e1ef30db6ba9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Opamp_Dual"
+		(symbol "Comparator:MCP6567"
+			(pin_names
+				(offset 0.127)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 5.08 0)
+				(at 3.81 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Opamp_Dual"
-				(at 0 -5.08 0)
+			(property "Value" "MCP6567"
+				(at 6.35 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -36,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,43 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual operational amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "kicad_builtin_opamp_dual"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(property "Description" "Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8/MSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -98,7 +63,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "dual opamp"
+			(property "ki_keywords" "cmp collector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -107,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* MSOP*3x3mm*P0.65mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -116,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Opamp_Dual_1_1"
+			(symbol "MCP6567_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -127,6 +92,19 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin input line
@@ -165,7 +143,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin open_collector line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "~"
@@ -184,7 +162,7 @@
 					)
 				)
 			)
-			(symbol "Opamp_Dual_2_1"
+			(symbol "MCP6567_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -195,6 +173,19 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin input line
@@ -233,7 +224,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin open_collector line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "~"
@@ -252,7 +243,7 @@
 					)
 				)
 			)
-			(symbol "Opamp_Dual_3_1"
+			(symbol "MCP6567_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -282,6 +273,145 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -698,6 +828,12 @@
 		(uuid "d6426d22-cf96-4387-b34e-994821c4572e")
 	)
 	(junction
+		(at 217.17 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0be2d8df-2393-4ddc-a5b4-2b1743a8c57e")
+	)
+	(junction
 		(at 129.54 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -720,6 +856,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fa8ec82-010d-4b13-adb0-6218ee5f17e8")
+	)
+	(junction
+		(at 217.17 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a0ceaeb-755b-45e1-8078-9c9e6c26713c")
 	)
 	(junction
 		(at 172.72 91.44)
@@ -782,6 +924,36 @@
 			(type default)
 		)
 		(uuid "18de17ef-0cc7-471f-a6a7-2b370ae5f8e2")
+	)
+	(wire
+		(pts
+			(xy 208.28 64.77) (xy 208.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce35f2f-492e-47ca-ad6e-7dd00b12b37a")
+	)
+	(wire
+		(pts
+			(xy 217.17 49.53) (xy 208.28 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb3166b-70a7-4c32-a955-b8108e3ea86d")
+	)
+	(wire
+		(pts
+			(xy 217.17 67.31) (xy 217.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31698b21-810c-4fe5-9507-0a08bd6f9360")
 	)
 	(wire
 		(pts
@@ -922,6 +1094,36 @@
 			(type default)
 		)
 		(uuid "b83c658d-f568-48c9-978f-32de91ef2d73")
+	)
+	(wire
+		(pts
+			(xy 217.17 45.72) (xy 217.17 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17ae870-2286-4fee-9d40-2fbd16c32ede")
+	)
+	(wire
+		(pts
+			(xy 208.28 49.53) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c652d9ac-4227-481b-ae34-eea0238a3cdc")
+	)
+	(wire
+		(pts
+			(xy 217.17 64.77) (xy 208.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b81a0a-4f82-47ce-823d-3e7e76f15367")
 	)
 	(wire
 		(pts
@@ -1117,127 +1319,6 @@
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
 					(reference "#PWR09")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 162.56 97.79 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a06db4b-784f-4d14-adbf-8f45e446606a")
-		(property "Reference" "U4"
-			(at 162.56 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Opamp_Dual"
-			(at 162.56 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 162.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 162.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 162.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 162.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 162.56 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "1a5ae0d2-deb4-4da2-a01d-38e3601abf17")
-		)
-		(pin "3"
-			(uuid "7760144f-9d26-4fa2-abfa-d7ac717ef287")
-		)
-		(pin "4"
-			(uuid "7e3543b2-8f71-4c54-91ee-604f3eb7bee3")
-		)
-		(pin "1"
-			(uuid "e7146fa7-56d1-4dce-9c1e-4aba7868af1b")
-		)
-		(pin "8"
-			(uuid "43b84d09-c418-4f63-abe0-a66a3c213676")
-		)
-		(pin "5"
-			(uuid "82045f64-7c9c-4887-9b7e-a2d7d2ef3be9")
-		)
-		(pin "6"
-			(uuid "850720b3-339c-4c19-9a8a-866564ef6aab")
-		)
-		(pin "2"
-			(uuid "7f13bbee-6618-4278-ad03-548fcc2ab670")
-		)
-		(instances
-			(project "PUTM_EV_BSPD_2025"
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
-					(reference "U4")
-					(unit 2)
 				)
 			)
 		)
@@ -1719,6 +1800,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:MCP6567")
+		(at 219.71 57.15 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b996b68-d2e6-424d-8c6b-59aec1eeeb82")
+		(property "Reference" "U13"
+			(at 218.44 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6567"
+			(at 218.44 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8/MSOP-8"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6f3977e7-ef6f-40e4-a31b-2b61671d1510")
+		)
+		(pin "2"
+			(uuid "b8429774-dcc2-49f0-ba02-d777117a8217")
+		)
+		(pin "4"
+			(uuid "42251a74-6509-41f7-84df-ca73021d05f0")
+		)
+		(pin "7"
+			(uuid "e37d93a3-eed4-42c4-b5a2-e1621e3f7967")
+		)
+		(pin "3"
+			(uuid "68b7faca-79c4-47db-9d58-c490695e86a5")
+		)
+		(pin "1"
+			(uuid "a98796fa-7f5f-4fd6-838d-d32b77546543")
+		)
+		(pin "6"
+			(uuid "e5a22aa1-73b8-4588-9fe5-d13eae804535")
+		)
+		(pin "8"
+			(uuid "440a5138-3cfa-4ce4-abad-8594f71a420b")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
+					(reference "U13")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:MCP6567")
+		(at 162.56 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92bd47c6-0a09-4fe7-ad77-28f447793508")
+		(property "Reference" "U13"
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6567"
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8/MSOP-8"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6f3977e7-ef6f-40e4-a31b-2b61671d1510")
+		)
+		(pin "2"
+			(uuid "b8429774-dcc2-49f0-ba02-d777117a8217")
+		)
+		(pin "4"
+			(uuid "42251a74-6509-41f7-84df-ca73021d05f0")
+		)
+		(pin "7"
+			(uuid "e37d93a3-eed4-42c4-b5a2-e1621e3f7967")
+		)
+		(pin "3"
+			(uuid "68b7faca-79c4-47db-9d58-c490695e86a5")
+		)
+		(pin "1"
+			(uuid "a98796fa-7f5f-4fd6-838d-d32b77546543")
+		)
+		(pin "6"
+			(uuid "e5a22aa1-73b8-4588-9fe5-d13eae804535")
+		)
+		(pin "8"
+			(uuid "440a5138-3cfa-4ce4-abad-8594f71a420b")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 115.57 104.14 0)
 		(unit 1)
@@ -1921,25 +2176,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 162.56 86.36 0)
-		(unit 1)
+		(lib_id "Comparator:MCP6567")
+		(at 162.56 97.79 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ddc09bc7-6eda-4ed5-813d-275d38658cb2")
-		(property "Reference" "U4"
-			(at 162.56 76.2 0)
+		(uuid "d7fc5417-52b8-4fce-bcd0-609767717e1e")
+		(property "Reference" "U13"
+			(at 162.56 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Opamp_Dual"
-			(at 162.56 78.74 0)
+		(property "Value" "MCP6567"
+			(at 162.56 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +2202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 86.36 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,8 +2210,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 162.56 86.36 0)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf"
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,79 +2219,109 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier"
-			(at 162.56 86.36 0)
+		(property "Description" "Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8/MSOP-8"
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "1a5ae0d2-deb4-4da2-a01d-38e3601abf18")
-		)
-		(pin "3"
-			(uuid "7760144f-9d26-4fa2-abfa-d7ac717ef288")
-		)
-		(pin "4"
-			(uuid "7e3543b2-8f71-4c54-91ee-604f3eb7bee4")
-		)
-		(pin "1"
-			(uuid "e7146fa7-56d1-4dce-9c1e-4aba7868af1c")
-		)
-		(pin "8"
-			(uuid "43b84d09-c418-4f63-abe0-a66a3c213677")
 		)
 		(pin "5"
-			(uuid "82045f64-7c9c-4887-9b7e-a2d7d2ef3bea")
-		)
-		(pin "6"
-			(uuid "850720b3-339c-4c19-9a8a-866564ef6aac")
+			(uuid "6f3977e7-ef6f-40e4-a31b-2b61671d1510")
 		)
 		(pin "2"
-			(uuid "7f13bbee-6618-4278-ad03-548fcc2ab671")
+			(uuid "b8429774-dcc2-49f0-ba02-d777117a8217")
+		)
+		(pin "4"
+			(uuid "42251a74-6509-41f7-84df-ca73021d05f0")
+		)
+		(pin "7"
+			(uuid "e37d93a3-eed4-42c4-b5a2-e1621e3f7967")
+		)
+		(pin "3"
+			(uuid "68b7faca-79c4-47db-9d58-c490695e86a5")
+		)
+		(pin "1"
+			(uuid "a98796fa-7f5f-4fd6-838d-d32b77546543")
+		)
+		(pin "6"
+			(uuid "e5a22aa1-73b8-4588-9fe5-d13eae804535")
+		)
+		(pin "8"
+			(uuid "440a5138-3cfa-4ce4-abad-8594f71a420b")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
+					(reference "U13")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d977e20a-12a9-48e8-9794-3de89d832c6e")
+		(property "Reference" "#PWR038"
+			(at 217.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd06c563-a8b0-429a-93a7-867740492a30")
 		)
 		(instances
 			(project "PUTM_EV_BSPD_2025"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
-					(reference "U4")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -2107,6 +2392,141 @@
 			(project "PUTM_EV_BSPD_2025"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 217.17 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaeedb7a-0715-4643-a29b-973e341a207d")
+		(property "Reference" "#PWR037"
+			(at 217.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 217.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 217.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a312016e-ac8f-42aa-8daf-4c91c65587ed")
+		)
+		(instances
+			(project "PUTM_EV_BSPD_2025"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4f84dfa-4d43-4abb-97cd-e4e5b1dccaed")
+		(property "Reference" "C11"
+			(at 201.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 201.93 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.3148 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "600afd3d-ad70-4de7-b503-b53528193069")
+		)
+		(pin "1"
+			(uuid "9602a17f-499e-48eb-bfbe-78b6ec57d6d4")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
+					(reference "C11")
 					(unit 1)
 				)
 			)
