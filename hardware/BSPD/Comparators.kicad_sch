@@ -4415,7 +4415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at 156.464 31.75 0)
 			(effects
 				(font
@@ -4896,7 +4896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at 189.738 31.75 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at 218.948 31.75 0)
 			(effects
 				(font
@@ -6732,7 +6732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "100n"
 			(at 207.01 92.7099 0)
 			(effects
 				(font
