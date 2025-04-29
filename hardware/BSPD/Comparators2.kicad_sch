@@ -2554,7 +2554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.792 76.2 90)
 			(effects
 				(font
@@ -2890,7 +2890,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 233.9848 52.07 0)
 			(effects
 				(font
@@ -3026,7 +3026,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -3303,7 +3303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 219.71 57.15 0)
 			(effects
 				(font
@@ -3312,7 +3312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf"
 			(at 219.71 57.15 0)
 			(effects
 				(font
@@ -3321,7 +3321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8/MSOP-8"
+		(property "Description" ""
 			(at 219.71 57.15 0)
 			(effects
 				(font
@@ -3389,7 +3389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -3398,7 +3398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf"
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -3407,7 +3407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8/MSOP-8"
+		(property "Description" ""
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -3743,7 +3743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.792 106.68 90)
 			(effects
 				(font
@@ -3810,7 +3810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 246.38 55.88 0)
 			(effects
 				(font
@@ -3897,7 +3897,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d3ccbe0a-bb4d-411f-ac57-e29bcd63e176")
+		(uuid "d3ccbe0a-bb4d-411f-ac57-e29bcd63e177")
 		(property "Reference" "U3"
 			(at 195.58 82.55 0)
 			(effects
@@ -3914,7 +3914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 195.58 91.44 0)
 			(effects
 				(font
@@ -3942,46 +3942,46 @@
 			)
 		)
 		(pin "5"
-			(uuid "bcc2eb1c-f464-441e-b327-7cad1c3c15c4")
+			(uuid "bcc2eb1c-f464-441e-b327-7cad1c3c15c5")
 		)
 		(pin "6"
-			(uuid "e46e930c-c966-4c8f-8c5c-7724818b9249")
+			(uuid "e46e930c-c966-4c8f-8c5c-7724818b924a")
 		)
 		(pin "11"
-			(uuid "c6c1db6f-172c-4592-973d-4ccff9c8e0dd")
+			(uuid "c6c1db6f-172c-4592-973d-4ccff9c8e0de")
 		)
 		(pin "3"
-			(uuid "57e292e7-1d50-4eb1-90e6-61da87dcb8da")
+			(uuid "57e292e7-1d50-4eb1-90e6-61da87dcb8db")
 		)
 		(pin "2"
-			(uuid "88bd295b-0add-4c39-8c26-ecf3c2d67ea4")
+			(uuid "88bd295b-0add-4c39-8c26-ecf3c2d67ea5")
 		)
 		(pin "9"
-			(uuid "db4a4660-8f38-44a0-b707-a324608bd267")
+			(uuid "db4a4660-8f38-44a0-b707-a324608bd268")
 		)
 		(pin "13"
-			(uuid "5be48db4-b546-49b3-90ea-37dbc890b47d")
+			(uuid "5be48db4-b546-49b3-90ea-37dbc890b47e")
 		)
 		(pin "8"
-			(uuid "d026d374-4a81-4047-992c-d617d55661b9")
+			(uuid "d026d374-4a81-4047-992c-d617d55661ba")
 		)
 		(pin "12"
-			(uuid "e75b8271-bb1a-4a26-8bf4-108ab1194946")
+			(uuid "e75b8271-bb1a-4a26-8bf4-108ab1194947")
 		)
 		(pin "14"
-			(uuid "ae93c561-457c-4fbc-8d48-06e7cd349660")
+			(uuid "ae93c561-457c-4fbc-8d48-06e7cd349661")
 		)
 		(pin "7"
-			(uuid "05db21c2-0adc-4e35-8522-91acc3c8e21a")
+			(uuid "05db21c2-0adc-4e35-8522-91acc3c8e21b")
 		)
 		(pin "10"
-			(uuid "381ebf8f-316b-4562-995f-18b336eaa740")
+			(uuid "381ebf8f-316b-4562-995f-18b336eaa741")
 		)
 		(pin "4"
-			(uuid "821c0ff4-95e7-46b5-b57c-95bbb8b80f66")
+			(uuid "821c0ff4-95e7-46b5-b57c-95bbb8b80f67")
 		)
 		(pin "1"
-			(uuid "2fdbbaac-2bcf-4910-b820-09c5f07a29e8")
+			(uuid "2fdbbaac-2bcf-4910-b820-09c5f07a29e9")
 		)
 		(instances
 			(project ""
@@ -4083,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 162.56 97.79 0)
 			(effects
 				(font
@@ -4092,7 +4092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP6566-6R-6U-7-9-1.8V-Low-Power-Open-Drain-Output-Comparator-DS20002143G.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm393.pdf"
 			(at 162.56 97.79 0)
 			(effects
 				(font
@@ -4101,7 +4101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual 1.8V Low-Power Open-Drain Output Comparator, SOIC-8/MSOP-8"
+		(property "Description" ""
 			(at 162.56 97.79 0)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 170.942 76.2 90)
 			(effects
 				(font
@@ -4372,7 +4372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 207.3148 53.34 0)
 			(effects
 				(font
