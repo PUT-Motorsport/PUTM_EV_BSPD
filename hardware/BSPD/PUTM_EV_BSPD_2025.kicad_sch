@@ -5607,7 +5607,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 116.84) (xy 173.99 101.6)
+			(xy 173.99 105.41) (xy 173.99 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9389,14 +9389,14 @@
 	(symbol
 		(lib_id "74xx:74HC14")
 		(at 196.85 96.52 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7879fc9-440f-4cc1-ae19-9692b9b695d1")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 196.85 87.63 0)
 			(effects
 				(font
@@ -9484,8 +9484,8 @@
 		(instances
 			(project ""
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
-					(reference "U6")
-					(unit 1)
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -9714,7 +9714,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 173.99 116.84 180)
+		(at 173.99 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9723,7 +9723,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4487f8f-22e0-4b62-bd44-c8252493d948")
 		(property "Reference" "TP11"
-			(at 176.53 118.8719 0)
+			(at 176.53 107.4419 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9732,7 +9732,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 176.53 121.4119 0)
+			(at 176.53 109.9819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +9741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 116.84 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9750,7 +9750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 116.84 0)
+			(at 168.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,7 +9759,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 173.99 116.84 0)
+			(at 173.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
