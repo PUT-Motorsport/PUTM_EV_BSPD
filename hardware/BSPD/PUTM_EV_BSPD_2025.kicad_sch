@@ -7200,11 +7200,11 @@
 				)
 			)
 		)
-		(property "Value" "1N4007W"
-			(at 162.814 132.334 0)
+		(property "Value" "NSVRB751V40T1G"
+			(at 163.068 131.318 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 			)
 		)
@@ -7217,7 +7217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/ProductDetail/onsemi/NSVRB751V40T1G?qs=dbuNSGnowt2jW1ha4241mA%3D%3D"
 			(at 160.02 127 0)
 			(effects
 				(font
@@ -10265,7 +10265,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4007W"
+		(property "Value" "SK36A-LTP"
 			(at 255.27 82.55 0)
 			(effects
 				(font
@@ -10282,7 +10282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/345/1n4001w_1n4007w-2449105.pdf"
+		(property "Datasheet" "https://eu.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/SK36A-LTP?qs=JeAkOuORR2UgZXSucJXzqg%3D%3D"
 			(at 255.27 77.47 0)
 			(effects
 				(font
