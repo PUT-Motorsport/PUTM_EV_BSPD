@@ -9404,7 +9404,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC3G14"
+		(property "Value" "74HC2G14-Q100"
 			(at 196.85 90.17 0)
 			(effects
 				(font
@@ -9412,7 +9412,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 196.85 96.52 0)
 			(effects
 				(font
