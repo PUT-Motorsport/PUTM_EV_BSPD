@@ -5,7 +5,7 @@
 	(uuid "cdc4e79f-7aac-4ca3-9613-323bef83953b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -14,15 +14,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,27 +74,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(rectangle
@@ -119,19 +108,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -149,7 +127,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -159,42 +137,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1517,7 +1459,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 63.246 101.346 0)
+		(at 63.246 96.266 0)
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -1635,14 +1577,6 @@
 		(color 0 0 0 0)
 		(uuid "ffd5f2af-c600-4806-98d6-86d93c651859")
 	)
-	(no_connect
-		(at 63.5 96.52)
-		(uuid "49fec6da-1749-4b4d-9e94-59f2df28c26b")
-	)
-	(no_connect
-		(at 63.5 99.06)
-		(uuid "8b0268a8-4c02-4c2e-9bf2-f54c2cf672e2")
-	)
 	(wire
 		(pts
 			(xy 116.84 105.41) (xy 129.54 105.41)
@@ -1725,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 101.6) (xy 68.58 105.41)
+			(xy 68.58 96.52) (xy 68.58 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1925,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 68.58 101.6)
+			(xy 63.5 96.52) (xy 68.58 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2176,7 +2110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.8052 102.87 0)
 			(effects
 				(font
@@ -2299,6 +2233,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 58.42 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "525c738a-f44e-45f7-a967-95d4b1efa293")
+		(property "Reference" "J4"
+			(at 58.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 58.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:Wire_StrainRelief"
+			(at 58.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87df85df-1fd6-43d8-88ac-6a17d8d66f7f")
+		)
+		(pin "1"
+			(uuid "48d3e8ac-5cd0-4641-b410-db485f84732d")
+		)
+		(instances
+			(project ""
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ac2eadde-f436-48a6-88e5-310fa5786a7f"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 99.06 93.98 90)
 		(unit 1)
@@ -2324,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 			(at 99.06 95.758 90)
 			(effects
 				(font
@@ -2598,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 102.87 99.06 0)
 			(effects
 				(font
@@ -2854,80 +2856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 58.42 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba91345e-e435-4d30-b693-1b23ec837d1c")
-		(property "Reference" "J4"
-			(at 58.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power"
-			(at 58.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "274c0477-edfb-44c0-b212-ec99156992c0")
-		)
-		(pin "1"
-			(uuid "c77cdbe5-d979-4657-b7f3-3e2db3c76e9c")
-		)
-		(pin "2"
-			(uuid "40d013b0-1c83-4ccc-9415-db25b80676be")
-		)
-		(pin "4"
-			(uuid "23d276c4-7af3-411c-986c-a2d0709ff2a1")
-		)
-		(instances
-			(project ""
-				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/ac2eadde-f436-48a6-88e5-310fa5786a7f"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 152.4 88.9 0)
 		(unit 1)
@@ -3064,7 +2992,7 @@
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
-		(at 68.58 105.41 0)
+		(at 68.58 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3072,7 +3000,7 @@
 		(dnp no)
 		(uuid "eb9f76d6-e9e2-42ad-ab42-22ef628df439")
 		(property "Reference" "#PWR05"
-			(at 68.58 111.76 0)
+			(at 68.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3009,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.707 109.8042 0)
+			(at 68.707 104.7242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3017,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 105.41 0)
+			(at 68.58 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 105.41 0)
+			(at 68.58 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,7 +3035,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 105.41 0)
+			(at 68.58 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

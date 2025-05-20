@@ -5565,7 +5565,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P3.6mm_D0.5mm_OD1mm_Relief"
+		(property "Footprint" "footprints:Wire_StrainRelief"
 			(at 254 31.75 0)
 			(effects
 				(font
@@ -6608,7 +6608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P3.6mm_D0.5mm_OD1mm_Relief"
+		(property "Footprint" "footprints:Wire_StrainRelief"
 			(at 19.05 50.8 0)
 			(effects
 				(font
@@ -7268,7 +7268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P3.6mm_D0.5mm_OD1mm_Relief"
+		(property "Footprint" "footprints:Wire_StrainRelief"
 			(at 17.78 134.62 0)
 			(effects
 				(font
@@ -8808,7 +8808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P3.6mm_D0.5mm_OD1mm_Relief"
+		(property "Footprint" "footprints:Wire_StrainRelief"
 			(at 19.05 73.66 0)
 			(effects
 				(font
