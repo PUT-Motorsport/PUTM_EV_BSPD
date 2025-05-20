@@ -1536,6 +1536,12 @@
 		(uuid "5a3a234f-d56a-4462-874c-fa24fb907a00")
 	)
 	(junction
+		(at 85.09 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6702e3fd-c03c-44b0-ae38-2077029cb978")
+	)
+	(junction
 		(at 140.97 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1546,12 +1552,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4befc02-f615-4aab-932c-249e8ebd4b08")
-	)
-	(junction
-		(at 74.93 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c290c44f-66e4-4677-b28e-b285c0d7eacc")
 	)
 	(junction
 		(at 116.84 105.41)
@@ -1609,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 93.98) (xy 95.25 93.98)
+			(xy 63.5 93.98) (xy 72.39 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1646,6 +1646,16 @@
 			(type default)
 		)
 		(uuid "2c8c863d-fc01-4e3b-b159-fe71b30177d7")
+	)
+	(wire
+		(pts
+			(xy 85.09 90.17) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e25b3a5-c0ed-4d6e-b561-e5c243b09bf8")
 	)
 	(wire
 		(pts
@@ -1689,6 +1699,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 90.17) (xy 90.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5442b8f9-e49f-4f25-9786-04c1cffb0e99")
+	)
+	(wire
+		(pts
 			(xy 195.58 93.98) (xy 182.88 93.98)
 		)
 		(stroke
@@ -1719,6 +1739,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 93.98) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7e593b-2c3b-4373-b900-7b12ae08492e")
+	)
+	(wire
+		(pts
 			(xy 107.95 105.41) (xy 116.84 105.41)
 		)
 		(stroke
@@ -1726,16 +1756,6 @@
 			(type default)
 		)
 		(uuid "6e192e30-a5a7-4503-9a1c-78b674520125")
-	)
-	(wire
-		(pts
-			(xy 63.5 93.98) (xy 74.93 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a9bd02-c806-49f9-b4f0-34b7539125f0")
 	)
 	(wire
 		(pts
@@ -1749,16 +1769,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 90.17) (xy 74.93 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8021c0bf-5dbf-42d4-a47e-3d6ebf226da9")
-	)
-	(wire
-		(pts
 			(xy 195.58 95.25) (xy 195.58 93.98)
 		)
 		(stroke
@@ -1766,16 +1776,6 @@
 			(type default)
 		)
 		(uuid "80525b21-1281-4842-9616-a5323af97dbb")
-	)
-	(wire
-		(pts
-			(xy 74.93 90.17) (xy 78.74 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "838b0411-9b55-4a69-9c77-741a3d15f62e")
 	)
 	(wire
 		(pts
@@ -1789,7 +1789,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 107.95 93.98)
+			(xy 80.01 93.98) (xy 85.09 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2007,15 +2007,16 @@
 		)
 		(uuid "f30037b9-6196-4cf4-8495-b95fb84b2912")
 	)
-	(label "LVMS"
-		(at 78.74 90.17 180)
+	(hierarchical_label "LVMS"
+		(shape output)
+		(at 90.17 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "8853c487-9971-48f5-97e4-79db693df4f8")
+		(uuid "004247bc-f41d-4445-a9d1-f36a42358158")
 	)
 	(symbol
 		(lib_id "PUTM_EV_IMD_SAFETY_2021-rescue:GND-power")
@@ -2302,7 +2303,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 99.06 93.98 90)
+		(at 76.2 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2310,7 +2311,7 @@
 		(dnp no)
 		(uuid "5dff3e02-c976-48ca-8848-8447b03f624b")
 		(property "Reference" "500mA/30V1"
-			(at 99.06 96.012 90)
+			(at 76.2 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2319,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 99.06 98.552 90)
+			(at 76.2 98.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2328,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 99.06 95.758 90)
+			(at 76.2 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2337,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/ProductDetail/YAGEO/SMD1812B050TF-30?qs=0lSvoLzn4L8M0gOvF39ORw%3D%3D"
-			(at 99.06 93.98 0)
+			(at 76.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2346,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 99.06 93.98 0)
+			(at 76.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

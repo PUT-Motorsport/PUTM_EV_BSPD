@@ -3953,6 +3953,12 @@
 		(uuid "d9f6f506-7b93-4e6f-aa1f-abd258839870")
 	)
 	(junction
+		(at 43.3719 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea1144df-71de-49ed-8082-bf4ef0e9f9be")
+	)
+	(junction
 		(at 231.14 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4089,6 +4095,16 @@
 		)
 		(uuid "0f2cf350-f708-4abe-a270-d4fc0659595f")
 	)
+	(wire
+		(pts
+			(xy 271.78 69.85) (xy 281.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb31449-c89a-445a-9c4d-1982de422833")
+	)
 	(polyline
 		(pts
 			(xy 169.8697 154.3542) (xy 169.8697 171.6715)
@@ -4108,6 +4124,16 @@
 			(type default)
 		)
 		(uuid "10e8cb2d-6a5e-4457-b9f0-73c2221c454b")
+	)
+	(wire
+		(pts
+			(xy 43.18 24.13) (xy 43.3719 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111404ff-8a63-460e-a1c6-a44174401119")
 	)
 	(wire
 		(pts
@@ -4580,16 +4606,6 @@
 		)
 		(uuid "6adde510-9e11-46e2-bd75-2c77d3a08be4")
 	)
-	(wire
-		(pts
-			(xy 278.13 69.85) (xy 271.78 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ee8f09a-3c59-4b32-95ab-d99db5a36e90")
-	)
 	(polyline
 		(pts
 			(xy 122.9135 161.29) (xy 127.8184 161.29)
@@ -4842,6 +4858,16 @@
 			(type dash)
 		)
 		(uuid "b160ee1a-de77-47c4-895d-d6208956a0d2")
+	)
+	(wire
+		(pts
+			(xy 43.3719 24.13) (xy 54.61 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ebe028-dfd7-42bf-a28b-13037e4721b2")
 	)
 	(wire
 		(pts
@@ -5185,15 +5211,25 @@
 		)
 		(uuid "fff9240e-d80f-45e8-8c9f-7918a887c134")
 	)
-	(label "LVMS"
-		(at 278.13 69.85 180)
+	(label "LVMS_Coil"
+		(at 54.61 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "246f14ac-5566-474b-9e45-10bd4b2a8d4b")
+		(uuid "16afe6a3-635c-4bd7-9845-0e1ddcc34ff2")
+	)
+	(label "LVMS_Coil"
+		(at 281.94 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eec698db-6178-4b99-b930-3cd4e1942477")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -9801,6 +9837,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(pin "LVMS" output
+			(at 43.3719 24.13 0)
+			(uuid "f2b51bc0-57e4-4715-aebb-88d37aa08848")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
