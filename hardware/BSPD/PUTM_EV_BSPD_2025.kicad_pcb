@@ -2903,6 +2903,102 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(layer "F.Cu")
+		(uuid "3fd47d9c-413f-41fd-8633-d398e66e9b84")
+		(at 168.9 117.9)
+		(descr "Mounting Hole 3.2mm, no annular, M3, ISO7380")
+		(tags "mounting hole 3.2mm no annular m3 iso7380")
+		(property "Reference" "H4"
+			(at 0 -3.85 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a124a13-3e67-44d4-807b-f2b3cde9c9a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "361ef1c5-8052-4339-b686-7c1e8f617ee1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46f64862-111e-4cc0-af86-a4407459f01f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07d83f04-c850-43d4-8e05-d1de0da9b573")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "5ac6f737-e14c-445c-ad18-87221b780153")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0b82326a-b115-46d2-bc02-df5b96c5423d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "bceb0b03-0460-4fc7-b0ba-a349dd3c4dba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "66beaa97-8627-4c0a-a7af-a737c55be6f7")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "4930ff3e-2de8-43b9-8c69-50b6755fe8c8")
@@ -5309,6 +5405,101 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(layer "F.Cu")
+		(uuid "6df3155c-fa66-4ca7-8f9e-ef77a8961610")
+		(at 113.02 87.42)
+		(descr "Mounting Hole 3.2mm, no annular, M3, ISO7380")
+		(tags "mounting hole 3.2mm no annular m3 iso7380")
+		(property "Reference" "H1"
+			(at 0 -3.85 0)
+			(layer "F.Fab")
+			(uuid "4712a289-164c-4a58-873e-f8b04e40028b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "79de0fe8-39b3-457c-8a6e-566c568f74c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15f6ca1d-ac34-4d73-a834-21a6fac10b96")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d794e683-db28-48b8-8943-c3a7760e397e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "31aa7100-28c3-41f6-92ef-2a9d25479664")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "76092ea9-29bf-4950-84e0-12700648ae47")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "53df7a5b-6fe2-4153-848d-46b754e1461b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "354ff4a8-fc99-4d0b-aec5-ecda1569b389")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6df38f6a-e48c-46cc-949f-c5e577eb2b9c")
@@ -5706,6 +5897,101 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(layer "F.Cu")
+		(uuid "7749db24-ae48-4257-9c15-8834614a4f42")
+		(at 113.02 117.9)
+		(descr "Mounting Hole 3.2mm, no annular, M3, ISO7380")
+		(tags "mounting hole 3.2mm no annular m3 iso7380")
+		(property "Reference" "H2"
+			(at 0 -3.85 0)
+			(layer "F.Fab")
+			(uuid "a45cdb84-1e45-42f4-aade-c4b7193f5ef9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "76498a75-dd78-4d9a-84ef-09bff1aa3123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dadbdafc-b4e1-4854-b21b-e162edab091a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31e65710-9140-4338-b6cd-e318ef926cf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "c130a93c-f939-4936-8fc5-016eb7f5a541")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bc30cb13-3e68-478b-8117-3bfe250c1513")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "f9c45767-90a1-4ef6-ad55-2d93d5f69359")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a17f3c34-8171-4f73-a6c8-1820c587a624")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -8072,6 +8358,101 @@
 				)
 			)
 			(uuid "fe40a1fa-f634-40f1-9e28-9566fa9a03ec")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(layer "F.Cu")
+		(uuid "919a9139-0968-49a2-bed6-322f5f09e01a")
+		(at 168.9 87.42)
+		(descr "Mounting Hole 3.2mm, no annular, M3, ISO7380")
+		(tags "mounting hole 3.2mm no annular m3 iso7380")
+		(property "Reference" "H3"
+			(at 0 -3.85 90)
+			(layer "F.Fab")
+			(uuid "a2ba9555-0172-4d95-b084-6205ce5b2a63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.85 0)
+			(layer "F.Fab")
+			(uuid "6edff822-2806-4799-9f05-b3864ebd3c8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c410d590-d88f-45f5-9dcc-f4c875ff4296")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67f71745-32b5-45a1-a813-fd5fb919f61d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.85 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "e8f1faf8-c5c5-4db7-86cc-7d0b32ffdfc7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "dfedd014-984d-46ca-948c-ad6fbf01932d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.3 0 0)
+			(layer "F.Fab")
+			(uuid "296c9094-4be3-46b0-abbc-df29d9496c33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "47c7da24-dbab-4ceb-b4c5-582cf0acd2d9")
 		)
 		(embedded_fonts no)
 	)
