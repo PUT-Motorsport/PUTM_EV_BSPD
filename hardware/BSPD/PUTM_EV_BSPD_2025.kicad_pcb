@@ -137,6 +137,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -19854,6 +19855,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "BS2 Potentiometer"
+		(at 125.5 119 0)
+		(layer "F.SilkS")
+		(uuid "a595f04d-3fef-4e7f-a590-19045c33a6b9")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "BrakeSens1"
 		(at 124.8 110.4 90)
 		(layer "F.SilkS" knockout)
@@ -19878,10 +19891,34 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CS Potentiometer"
+		(at 126.5 89 0)
+		(layer "F.SilkS")
+		(uuid "dc0e595e-7447-4f85-a022-cbdeecf00269")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "BRAKE2"
 		(at 121.7 117 90)
 		(layer "F.SilkS")
 		(uuid "ddd5d382-a849-4088-aed2-c81fcab0a61e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BS1 Potentiometer"
+		(at 136 119 0)
+		(layer "F.SilkS")
+		(uuid "e2a6017f-b6e0-47d1-b021-0b27f3056e90")
 		(effects
 			(font
 				(size 0.7 0.7)
