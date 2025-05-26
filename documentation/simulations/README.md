@@ -1,4 +1,4 @@
-Tested Cases:
+# Tested Cases:
 
 Pulse (2 seconds) of trigger state on all inputs individually, while the rest of inputs was in a trigger state
 Pulse on 2 inputs of trigger state, while the 3rd was in static trigger state
@@ -12,4 +12,4 @@ DC Sweep -||-, while the rest was in neutral state
 <500ms pulse on all inputs individually, while the rest was in trigger state
 <500ms pulse on two inputs while the last was in neutral state
 
-All cases above work as intended. (On my machine atleast)
+## All cases above work as intended. (On my machine atleast)
