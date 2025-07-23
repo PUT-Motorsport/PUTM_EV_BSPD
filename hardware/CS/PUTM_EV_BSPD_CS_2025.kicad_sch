@@ -7,7 +7,7 @@
 	(title_block
 		(rev "${REVISION}")
 		(company "Author:")
-		(comment 1 "Reviewer:")
+		(comment 1 "Reviewer: Przemysław Zioła, Piotr Lesicki")
 	)
 	(lib_symbols
 		(symbol "Conn_01x04_1"
@@ -2693,6 +2693,26 @@
 		)
 		(uuid e58ccdc5-e9c1-450e-8282-b16a753789ac)
 	)
+	(text "k=50\nThreshold value is amplified from 52mV to 2,6V"
+		(exclude_from_sim no)
+		(at 99.06 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2413c3b3-92be-4ca9-97fe-e576d1ae8799")
+	)
+	(text "5kW at 600V (worst case) is 8.333A\nVout-Vref=52mV"
+		(exclude_from_sim no)
+		(at 40.64 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "268ddd47-8d5f-4358-aa57-dedce2f53f53")
+	)
 	(text "BSPD Current Sensor Board"
 		(exclude_from_sim no)
 		(at 207.01 189.992 0)
@@ -2714,6 +2734,16 @@
 		)
 		(uuid "3e8bb231-eb2b-43f0-8d8d-4d67e835db22")
 	)
+	(text "LEM HTFS 200-P Hall Effect Sensor.\n Vref=2.5V Nominal primary current= 200A"
+		(exclude_from_sim no)
+		(at 39.37 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47789e7d-3c05-4d55-a865-8040652ebac4")
+	)
 	(text "Power Section + IC Debounce"
 		(exclude_from_sim no)
 		(at 28.956 47.244 0)
@@ -2734,6 +2764,16 @@
 			)
 		)
 		(uuid "739a3ebd-64ba-4e85-bbc0-86e5e6487020")
+	)
+	(text "Vout= 1.25 *I_{meas}/200"
+		(exclude_from_sim no)
+		(at 40.64 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8387e0fb-68aa-4927-b68d-c5c817223562")
 	)
 	(text "Current Transducer"
 		(exclude_from_sim no)
@@ -5743,7 +5783,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "33k"
 			(at 91.948 118.11 0)
 			(effects
 				(font
@@ -5770,6 +5810,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME#" ""
 			(at 95.25 119.38 0)
 			(effects
 				(font
@@ -6265,7 +6323,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "680R"
 			(at 86.36 100.33 90)
 			(effects
 				(font
@@ -6292,6 +6350,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 86.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 86.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME#" ""
 			(at 86.36 104.14 0)
 			(effects
 				(font
@@ -6693,7 +6769,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "680R"
 			(at 86.36 116.586 90)
 			(effects
 				(font
@@ -6720,6 +6796,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 86.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 86.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME#" ""
 			(at 86.36 109.22 0)
 			(effects
 				(font
@@ -7171,7 +7265,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "33k"
 			(at 106.68 88.9 90)
 			(effects
 				(font
@@ -7198,6 +7292,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser#" ""
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TME#" ""
 			(at 106.68 92.71 0)
 			(effects
 				(font

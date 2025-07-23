@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "cdc4e79f-7aac-4ca3-9613-323bef83953b")
 	(paper "A4")
+	(title_block
+		(company "Author:")
+		(comment 1 "Reviewer: Przemysław Zioła, Piotr Lesicki")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names

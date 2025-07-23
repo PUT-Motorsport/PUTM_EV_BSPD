@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "3e5f3411-14be-423c-8729-17d1a82a4890")
 	(paper "A4")
+	(title_block
+		(company "Author:")
+		(comment 1 "Reviewer: Przemysław Zioła, Piotr Lesicki")
+	)
 	(lib_symbols
 		(symbol "74HC:Inv_Schmitt"
 			(exclude_from_sim no)

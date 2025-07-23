@@ -7,7 +7,7 @@
 	(title_block
 		(rev "${REVISION}")
 		(company "Author:")
-		(comment 1 "Reviewer:")
+		(comment 1 "Reviewer: Przemysław Zioła, Piotr Lesicki")
 	)
 	(lib_symbols
 		(symbol "74HC:Inv_Schmitt"

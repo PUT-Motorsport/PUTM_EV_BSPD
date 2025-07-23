@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "03e853ca-0736-453e-9655-e1ef30db6ba9")
 	(paper "A4")
+	(title_block
+		(company "Author:")
+		(comment 1 "Reviewer: Przemysław Zioła, Piotr Lesicki")
+	)
 	(lib_symbols
 		(symbol "74HC:Inv_Schmitt"
 			(exclude_from_sim no)
@@ -1642,6 +1646,16 @@
 			)
 		)
 		(uuid "8106fe64-a587-4115-a7a3-78f35d82b836")
+	)
+	(text "5kW = 2,6V with \ncurrent CS setup"
+		(exclude_from_sim no)
+		(at 91.44 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9af3bc76-06b7-41fa-ab38-e5462d66d84b")
 	)
 	(junction
 		(at 179.07 91.44)
