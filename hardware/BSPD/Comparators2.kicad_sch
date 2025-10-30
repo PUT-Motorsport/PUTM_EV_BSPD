@@ -1700,6 +1700,12 @@
 		(uuid "7201773f-8fb1-42ff-b583-fd4ca9f87b5f")
 	)
 	(junction
+		(at 140.97 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7331bc9a-de08-4973-b226-3d289dc51d03")
+	)
+	(junction
 		(at 217.17 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1992,6 +1998,16 @@
 			(type default)
 		)
 		(uuid "ab816be7-dd6d-4e43-bc4d-ee0b87fb9f85")
+	)
+	(wire
+		(pts
+			(xy 140.97 72.39) (xy 140.97 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b281bef8-c8f0-4ac9-b8f4-e52cd8986251")
 	)
 	(wire
 		(pts
@@ -3647,6 +3663,73 @@
 			(project "PUTM_EV_BSPD_2025"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e1a8df-71c3-48f4-91e3-f8d1666a6e52")
+		(property "Reference" "TP16"
+			(at 143.51 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 143.51 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "333dda81-2af3-4450-afbc-f997ad645310")
+		)
+		(instances
+			(project "PUTM_EV_BSPD_2025"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/2d11734f-2f5d-466a-b449-1432fba26460"
+					(reference "TP16")
 					(unit 1)
 				)
 			)

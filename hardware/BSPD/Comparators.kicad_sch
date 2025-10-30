@@ -2145,6 +2145,12 @@
 		(uuid "fc23cbb7-16f3-4593-ae6f-93bd2ef1f02f")
 	)
 	(junction
+		(at 106.68 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "116093b1-071a-46f3-91e6-ee68a1dc93d6")
+	)
+	(junction
 		(at 110.49 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2245,6 +2251,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ade8e00c-5ee7-49ec-8e9f-bf13921d6bed")
+	)
+	(junction
+		(at 106.68 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c38201a5-0323-4dbd-bc9a-0ebbacedb7ec")
 	)
 	(junction
 		(at 170.18 38.1)
@@ -2377,6 +2389,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 52.07) (xy 115.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26295884-b7ca-4253-bafc-c3e3fdddc55c")
+	)
+	(wire
+		(pts
 			(xy 170.18 22.86) (xy 163.83 22.86)
 		)
 		(stroke
@@ -2397,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 52.07) (xy 115.57 52.07)
+			(xy 102.87 52.07) (xy 106.68 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2608,6 +2630,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 48.26) (xy 106.68 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666324de-fda7-4b20-bd85-a9416ea7c290")
+	)
+	(wire
+		(pts
 			(xy 77.47 63.5) (xy 80.01 63.5)
 		)
 		(stroke
@@ -2688,7 +2720,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 107.95) (xy 115.57 107.95)
+			(xy 102.87 107.95) (xy 106.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2765,6 +2797,16 @@
 			(type default)
 		)
 		(uuid "9e628c61-79a3-40fa-af39-7cac03a4f396")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 106.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe779ae-99f2-43ee-99f9-04a912158274")
 	)
 	(wire
 		(pts
@@ -2986,6 +3028,16 @@
 			(type default)
 		)
 		(uuid "e4a8c744-3e8d-4cdf-8f9b-c304202bd09f")
+	)
+	(wire
+		(pts
+			(xy 106.68 107.95) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e829d7da-115a-4b71-8bfe-a061b0cae004")
 	)
 	(wire
 		(pts
@@ -3730,6 +3782,73 @@
 			(project "PUTM_EV_BSPD_2025"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/743c9fc1-2f1a-4d5a-9140-72b33986ce8b"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32b3ed43-df79-42df-bda3-a37e27cd4a8a")
+		(property "Reference" "TP15"
+			(at 109.22 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.22 46.2279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "231f5bb6-b8d5-404b-b781-45e3777678aa")
+		)
+		(instances
+			(project "PUTM_EV_BSPD_2025"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/743c9fc1-2f1a-4d5a-9140-72b33986ce8b"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -6203,6 +6322,73 @@
 			(project "PUTM_EV_BSPD_2025"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/743c9fc1-2f1a-4d5a-9140-72b33986ce8b"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4fee1bc-d6e2-4ae2-9e25-8cbe013ae7f1")
+		(property "Reference" "TP14"
+			(at 109.22 99.5679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.22 102.1079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dea10d8-c8bf-4ac7-ac49-6fe3c440a183")
+		)
+		(instances
+			(project "PUTM_EV_BSPD_2025"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/743c9fc1-2f1a-4d5a-9140-72b33986ce8b"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
